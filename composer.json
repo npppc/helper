@@ -1,0 +1,22 @@
+{
+    "name": "npppc/helper",
+    "description": "helper",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Npc\\Helper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "npppc",
+            "email": "npcchina@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "roave/better-reflection": "4.3.0",
+        "phalcon/ide-stubs": "v4.1"
+    }
+}
